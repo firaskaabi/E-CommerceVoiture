@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Nav Customize</title>
+	<meta charset="utf-8">
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Nav Customize</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<link rel="stylesheet" type="text/css" href="style/js/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="js/index.js"></script>
+    <script src="jsonData/v.js"></script>
+    <script src="js/produit.js"></script>
+</head>
+<body onload="listVoitures();upload()">
+  <header>
+    <div class="container h-100 fixed-top ">
+      <div class="d-flex justify-content-center h-100">
+        <div class="searchbar">
+          <input id="search" class="search_input" type="text" name="" placeholder="Search...">
+          <a href="#" onclick="recherche()" class="search_icon"><i class="fas fa-search"></i></a>
+        </div>
+      </div>
+    </div>
+ 
+  </header>
+	<nav class="navbar navbar-expand-sm fixed-top navbar-dark" id="cust-nav">
+
+		<a class="navbar-brand" href="#">
+			<img src="image/logo.png" alt="Logo" style="width:80px;">
+		</a>
+        <h1>AUTO<span>PIECE</span></h1>
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+		    <span class="navbar-toggler-icon"></span>
+		  </button>
+
+			  	<div class="collapse navbar-collapse" id="collapsibleNavbar">
+				  <ul class="navbar-nav">
+  
+				    <li class="nav-item" >
+              <a class="nav-link navlink " id="home" href="index.html"  >  Home</a>
+				    </li>
+				    <li class="nav-item">
+				      <a class="nav-link navlink"  href="produit.html">Produit</a>
+				    </li>
+				    <li class="nav-item">
+				      <a class="nav-link navlink" href="#Contact">contact</a>
+              </li>
+           <li class=" dropdown nav-item" id="user">
+
+                </li>
+				  </ul>
+                </div>
+                	 <li class="nav-item">
+				      <a class="nav-link " href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link  " href="#"><i class="fa fa-user" aria-hidden="true"></i>
+                        </a>
+                      </li>
+
+  </nav> 
+ 
+
+  <div class="container-fluid">
+    <div class="row">
+       <div class="col-6"></div>
+       <div class="col-6"></div>
+    </div><!-- /row -->
+   </div>
+
+   <div class="container-fluid">
+     <h1>Liste Voitures</h1>
+    <div class="row my-3" >
+       <div class="col-12 col-sm-4 my-3 my-sm-0" id="newVoiture1">
+
+       </div>
+
+     <div class="col-12 col-sm-4 my-3 my-sm-0" id="newVoiture2">
+     
+     </div>
+     <div class="col-12 col-sm-4 my-3 my-sm-0" id="newVoiture3">
+      
+    </div>
+    </div>
+    <div class="row my-3" >
+        <div class="col-12 col-sm-4 my-3 my-sm-0" id="newVoiture4">
+ 
+        </div>
+ 
+      <div class="col-12 col-sm-4 my-3 my-sm-0" id="newVoiture5">
+      
+      </div>
+      <div class="col-12 col-sm-4 my-3 my-sm-0" id="newVoiture6">
+       
+     </div>
+     </div>
+     <div class="row my-3" >
+        <div class="col-12 col-sm-4 my-3 my-sm-0" id="newVoiture7">
+ 
+        </div>
+ 
+      <div class="col-12 col-sm-4 my-3 my-sm-0" id="newVoiture8">
+      
+      </div>
+      <div class="col-12 col-sm-4 my-3 my-sm-0" id="newVoiture9">
+       
+     </div>
+     </div>
+   </div>
+  
+</body>
+</html>
